@@ -27,6 +27,16 @@ function runFwAlgo(){
 function FwAlgo(){
 	//Implement your solution here
 	
+if(Fwinput.value!=""){
+lines=Fwinput.value.split("\n")
+for(var i=0;i<lines.length;++i){
+cell=lines[i].split(",");
+input[i]=new Array([]);
+for(var j=0;j<lines.length;++j){
+input[i][j]=parseInt(cell[j]);
+
+}}
+document.write(lines);
 	
 	
 	
